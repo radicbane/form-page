@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Gluten:wght@500&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
+    background: rgb(223,134,17);
+background: linear-gradient(90deg, rgba(223,134,17,1) 25%, rgba(255,115,0,1) 100%);
+}
+
+body{
+        background-color: white;
+        background-image: url("toppng.com-aws-logo-amazon-web-services-ico-780x294.png");
+        background-blend-mode: multiply;
+        background-size: 500px;
+        background-repeat: no-repeat;
+        background-position: left;
+}
+h1{
+text-align: center;
+font-family: 'Gluten', cursive;
+padding: 20px 0px 10px 0px;
+font-size: 3em;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+
+input[type=text] , select, textarea{
+padding: 5px;
+border: 2px solid chocolate;
+border-radius: 6px;
+box-sizing: border-box;
+margin: 5px 0px 10px 0px;
+}
+
+label {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.button {
+    background-color: rgba(228, 134, 66, 0.842);
+    color: rgba(10, 2, 2, 0.712);
+    border: 2px solid chocolate;
+    border-radius: 6px;
+    font-weight: bold;
+    width: 169px;
+    height: 30px;
+  }
+
+  select{
+      width: 169px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+ 
+
+  footer {
+    background: rgb(223,134,17);
+    background: linear-gradient(90deg, rgba(223,134,17,1) 25%, rgba(255,115,0,1) 100%);
+    color:black;
+    height: 30px;
+    padding: 15px; 
+    margin-top: 0px;
+    margin-bottom: 0px; 
+}
+
+footer p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    text-align: right;
+}
